@@ -14,7 +14,8 @@ module.exports = function LeakyComponent() {
       .then((resp) => resp.json())
       .then((data) => {
         setName(data.name);
-      });
+      })
+      .catch(console.log);
 
     return () => controller.abort();
   }, []);

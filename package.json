@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "jest --setupFilesAfterEnv ./enzymeSetup.js --runInBand"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^26.2.2"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.5",
+    "htm": "^3.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
